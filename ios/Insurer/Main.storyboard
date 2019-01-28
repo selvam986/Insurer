@@ -22,6 +22,9 @@
                                 <rect key="frame" x="154" y="318" width="67" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="RCT View"/>
+                                <connections>
+                                    <action selector="onClickingRCTView:" destination="oS6-8H-6h2" eventType="touchUpInside" id="aFK-aY-M4g"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.91064200129533679" green="0.082490672905768003" blue="0.18117298811204255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
